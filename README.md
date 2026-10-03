@@ -1,9 +1,9 @@
 # Tab Manager
 
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-brightgreen.svg)](https://developer.chrome.com/docs/extensions/mv3/intro/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/sandeshPatel06/tab-extractor/blob/main/LICENSE)
 [![Cross-Browser](https://img.shields.io/badge/Browser-Chrome%20%7C%20Firefox%20%7C%20Edge%20%7C%20Brave-orange.svg)](#installation)
-[![Version](https://img.shields.io/badge/Version-2.0.0-informational.svg)](manifest.json)
+[![Version](https://img.shields.io/badge/Version-2.0.0-informational.svg)](https://github.com/sandeshPatel06/tab-extractor/blob/main/manifest.json)
 
 **Tab Manager** is a powerful, lightweight Manifest V3 browser extension built to declutter your browser, eliminate duplicates, reclaim system memory, and organize your workflow into structured workspaces.
 
@@ -14,7 +14,7 @@
 <div align="center">
 
 ### Popup Interface
-<img src="screenshots/popup.png" alt="Tab Manager Popup" width="360" />
+<img src="https://raw.githubusercontent.com/sandeshPatel06/tab-extractor/main/screenshots/popup.png" alt="Tab Manager Popup" width="360" />
 <br>
 <sub><em>Quick actions, debounced search, active audio and hibernation status indicators, and Zen Mode.</em></sub>
 
@@ -24,12 +24,12 @@
 
 | Automation & Memory Saver | Workspace Sessions |
 | :---: | :---: |
-| <img src="screenshots/automation.png" alt="Automation & Memory Saver" width="480" /> | <img src="screenshots/workspaces.png" alt="Workspace Sessions Manager" width="480" /> |
+| <img src="https://raw.githubusercontent.com/sandeshPatel06/tab-extractor/main/screenshots/automation.png" alt="Automation & Memory Saver" width="480" /> | <img src="https://raw.githubusercontent.com/sandeshPatel06/tab-extractor/main/screenshots/workspaces.png" alt="Workspace Sessions Manager" width="480" /> |
 | <sub><em>Smart duplicate cleanup & idle tab auto-hibernation</em></sub> | <sub><em>Snapshot, restore, import, and export sessions</em></sub> |
 
 | General Settings |
 | :---: |
-| <img src="screenshots/options.png" alt="General Settings Dashboard" width="650" /> |
+| <img src="https://raw.githubusercontent.com/sandeshPatel06/tab-extractor/main/screenshots/options.png" alt="General Settings Dashboard" width="650" /> |
 | <sub><em>Global preferences, default sort modes, and tab snooze durations</em></sub> |
 
 </div>
@@ -102,18 +102,18 @@
 ### Google Chrome / Brave / Microsoft Edge
 1. Clone or download this repository to your local machine:
    ```bash
-   git clone https://github.com/sandeshpatel/tab-manager.git
+   git clone https://github.com/sandeshPatel06/tab-extractor.git
    ```
 2. Open your browser and navigate to the Extensions page:
    - Chrome / Brave: `chrome://extensions`
    - Microsoft Edge: `edge://extensions`
 3. Enable **Developer mode** (toggle switch in the top-right corner).
-4. Click **Load unpacked** and select the root directory of this repository (`tab-manager`).
+4. Click **Load unpacked** and select the root directory of this repository (`tab-extractor`).
 
 ### Mozilla Firefox
 1. Open Firefox and navigate to `about:debugging#/runtime/this-firefox`.
 2. Click **Load Temporary Add-on...**.
-3. Select the [`manifest.json`](file:///home/reak/git/extension/tab-manager/manifest.json) file inside the project directory.
+3. Select the [`manifest.json`](https://github.com/sandeshPatel06/tab-extractor/blob/main/manifest.json) file inside the project directory.
 
 ---
 
@@ -132,9 +132,9 @@ Access the extension settings page by clicking the gear icon in the popup or rig
 
 Built strictly adhering to **Manifest V3** with cross-browser compatibility:
 
-- [`background.js`](file:///home/reak/git/extension/tab-manager/background.js): Service worker handling browser alarms, context menus, storage synchronization, tab grouping, auto-cleanup, and tab discarding.
-- [`popup.html`](file:///home/reak/git/extension/tab-manager/popup.html) / [`popup.js`](file:///home/reak/git/extension/tab-manager/popup.js): High-performance popup UI with event delegation, DOM fragment rendering, and sanitized outputs.
-- [`options.html`](file:///home/reak/git/extension/tab-manager/options.html) / [`options.js`](file:///home/reak/git/extension/tab-manager/options.js): Dedicated full-page options interface for comprehensive rule management.
+- [`background.js`](https://github.com/sandeshPatel06/tab-extractor/blob/main/background.js): Service worker handling browser alarms, context menus, storage synchronization, tab grouping, auto-cleanup, and tab discarding.
+- [`popup.html`](https://github.com/sandeshPatel06/tab-extractor/blob/main/popup.html) / [`popup.js`](https://github.com/sandeshPatel06/tab-extractor/blob/main/popup.js): High-performance popup UI with event delegation, DOM fragment rendering, and sanitized outputs.
+- [`options.html`](https://github.com/sandeshPatel06/tab-extractor/blob/main/options.html) / [`options.js`](https://github.com/sandeshPatel06/tab-extractor/blob/main/options.js): Dedicated full-page options interface for comprehensive rule management.
 
 ### Permissions
 - `tabs`: Query, organize, discard, and manage browser tabs.
@@ -147,4 +147,4 @@ Built strictly adhering to **Manifest V3** with cross-browser compatibility:
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License. See [LICENSE](https://github.com/sandeshPatel06/tab-extractor/blob/main/LICENSE) for details.
