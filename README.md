@@ -9,6 +9,33 @@
 
 ---
 
+## Screenshots
+
+<div align="center">
+
+### Popup Interface
+<img src="screenshots/popup.png" alt="Tab Manager Popup" width="360" />
+<br>
+<sub><em>Quick actions, debounced search, active audio and hibernation status indicators, and Zen Mode.</em></sub>
+
+<br><br>
+
+### Settings & Automation Dashboard
+
+| Automation & Memory Saver | Workspace Sessions |
+| :---: | :---: |
+| <img src="screenshots/automation.png" alt="Automation & Memory Saver" width="480" /> | <img src="screenshots/workspaces.png" alt="Workspace Sessions Manager" width="480" /> |
+| <sub><em>Smart duplicate cleanup & idle tab auto-hibernation</em></sub> | <sub><em>Snapshot, restore, import, and export sessions</em></sub> |
+
+| General Settings |
+| :---: |
+| <img src="screenshots/options.png" alt="General Settings Dashboard" width="650" /> |
+| <sub><em>Global preferences, default sort modes, and tab snooze durations</em></sub> |
+
+</div>
+
+---
+
 ## Key Features
 
 ### 🗂️ Smart Tab Grouping
